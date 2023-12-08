@@ -1,0 +1,5 @@
+1. git checkout -b <new_branch_name>
+2. "Fast-forward merge" is the simpliest and basic merge when git can easily tell when the commits happened and "put" one set of commits on top of another chronologically. When a simple fast-forward merge would not be sufficient, git will use an algorithm called "recursive merge" to merge branches.
+3. git checkout <branch_name>
+4. git branch -d <deleting_branch_name>
+5. When git does not know which file(s)/folder(s) with the same name is/are to merge because the same file(s)/folder(s) are committed with changes.

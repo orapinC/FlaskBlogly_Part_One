@@ -1,0 +1,19 @@
+2023-08-04 15:29:56.409 [info] 
+
+
+
+
+2023-08-04 15:29:56.432 [info] Extension host agent started.
+2023-08-04 15:29:56.944 [info] [127.0.0.1][72cf8a44][ManagementConnection] New connection established.
+2023-08-04 15:29:57.694 [info] [127.0.0.1][c2bfcc29][ExtensionHostConnection] New connection established.
+2023-08-04 15:29:57.705 [info] [127.0.0.1][c2bfcc29][ExtensionHostConnection] <710> Launched Extension Host Process.
+2023-08-04 15:30:23.963 [info] [127.0.0.1][72cf8a44][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-08-04 15:30:23.965 [error] Error: Throttler is disposed
+    at r.queue (/home/puey/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/puey/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/puey/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+2023-08-04 15:30:23.967 [error] Error: Throttler is disposed
+    at r.queue (/home/puey/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/puey/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/puey/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+2023-08-04 15:30:24.023 [info] [127.0.0.1][c2bfcc29][ExtensionHostConnection] <710> Extension Host Process exited with code: 0, signal: null.

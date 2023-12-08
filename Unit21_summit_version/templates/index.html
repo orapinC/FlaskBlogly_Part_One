@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link rel="stylesheet" href="/static/app.css"-->
+
+    <title>Foreign Exchange</title>
+</head>
+<body>
+    <h1>Foreign Exchange</h1>
+    <p class="msg">
+        <!--our message to user is here -->
+    </p>
+
+    <form action="/form" class="forex-form" method="POST">
+        <p>Converting from
+        <input type=text placeholder="3 letters currency name" class="cfrom" name="cfrom">
+        </p>
+        <p>Converting to
+            <input type=text placeholder="3 letters currency name" class="cto" name="cto">
+        </p>
+        <p>Amount:
+            <input type=number placeholder="amount" class= "amount" name="amount">
+        </p>
+        <button id="add-message">Convert</button>
+    </form>
+    
+    <p>Currency ISO 4217 Code and Name</p>
+    <ul>
+        <li>AUD: Australian Dollar</li>
+        <li>CAD: Canadian Dollar</li>
+        <li>CHF: Swiss Franc</li>
+        <li>CNY: Chinese Yuan</li>
+        <li>EUR: Euro</li>
+        <li>GBP: British Pound Sterling</li>
+        <li>HKD: Hong Kong Dollar</li>
+        <li>INR: Indian Rupee</li>
+        <li>JPY: Japanese Yen"</li>
+        <li>KRW: South Korean Won</li>
+        <li>MXN: Mexican Peso</li>
+        <li>NZD: New Zealand Dollar</li>
+        <li>SGD: Singapore Dollar</li>
+        <li>THB: Thai Baht</li>
+        <li>USD: United States Dollar</li>
+    <ul>
+    <script src="http://unpkg.com/jquery"></script>
+    <script src="/static/forex.js"></script>
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
